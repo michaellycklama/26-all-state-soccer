@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All-State Soccer Voting</title>
+    <!-- Tailwind CSS v3 utilities used by this page, pre-built so no build script loads at runtime.
+         Brand colors: navy #1D303F, navy-dark #14222D, ink #000000, muted #595959,
+         canvas #F4F6F8, pick #E8ECEF, rule #D5DBE0. -->
+    <style>
+*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.fixed{position:fixed}.sticky{position:sticky}.inset-0{inset:0px}.top-0{top:0px}.z-50{z-index:50}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mt-4{margin-top:1rem}.mb-10{margin-bottom:2.5rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.ml-1{margin-left:0.25rem}.mr-1{margin-right:0.25rem}.mt-1{margin-top:0.25rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.table{display:table}.hidden{display:none}.h-8{height:2rem}.h-10{height:2.5rem}.h-4{height:1rem}.h-5{height:1.25rem}.min-h-screen{min-height:100vh}.w-auto{width:auto}.w-full{width:100%}.w-16{width:4rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-9{width:2.25rem}.min-w-full{min-width:100%}.min-w-0{min-width:0px}.min-w-max{min-width:max-content}.max-w-7xl{max-width:80rem}.max-w-lg{max-width:32rem}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.cursor-default{cursor:default}.cursor-pointer{cursor:pointer}.list-disc{list-style-type:disc}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-1{gap:0.25rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.divide-y > :not([hidden]) ~ :not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px * calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px * var(--tw-divide-y-reverse))}.divide-rule > :not([hidden]) ~ :not([hidden]){--tw-divide-opacity:1;border-color:rgb(213 219 224 / var(--tw-divide-opacity, 1))}.self-start{align-self:flex-start}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.whitespace-nowrap{white-space:nowrap}.break-all{word-break:break-all}.rounded-lg{border-radius:0.5rem}.rounded{border-radius:0.25rem}.rounded-full{border-radius:9999px}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-l-4{border-left-width:4px}.border-navy{--tw-border-opacity:1;border-color:rgb(29 48 63 / var(--tw-border-opacity, 1))}.border-rule{--tw-border-opacity:1;border-color:rgb(213 219 224 / var(--tw-border-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-canvas{--tw-bg-opacity:1;background-color:rgb(244 246 248 / var(--tw-bg-opacity, 1))}.bg-navy{--tw-bg-opacity:1;background-color:rgb(29 48 63 / var(--tw-bg-opacity, 1))}.bg-pick{--tw-bg-opacity:1;background-color:rgb(232 236 239 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-opacity-50{--tw-bg-opacity:0.5}.p-4{padding:1rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-8{padding-top:2rem;padding-bottom:2rem}.px-1{padding-left:0.25rem;padding-right:0.25rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.pl-5{padding-left:1.25rem}.pb-2{padding-bottom:0.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.tabular-nums{--tw-numeric-spacing:tabular-nums;font-variant-numeric:var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction)}.leading-none{line-height:1}.tracking-wide{letter-spacing:0.025em}.text-ink{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-muted{--tw-text-opacity:1;color:rgb(89 89 89 / var(--tw-text-opacity, 1))}.text-navy{--tw-text-opacity:1;color:rgb(29 48 63 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/80{color:rgb(255 255 255 / 0.8)}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.text-red-400{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.text-white\/70{color:rgb(255 255 255 / 0.7)}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.hover\:border-navy:hover{--tw-border-opacity:1;border-color:rgb(29 48 63 / var(--tw-border-opacity, 1))}.hover\:bg-navy-dark:hover{--tw-bg-opacity:1;background-color:rgb(20 34 45 / var(--tw-bg-opacity, 1))}.hover\:bg-pick:hover{--tw-bg-opacity:1;background-color:rgb(232 236 239 / var(--tw-bg-opacity, 1))}.hover\:text-ink:hover{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.hover\:text-red-700:hover{--tw-text-opacity:1;color:rgb(185 28 28 / var(--tw-text-opacity, 1))}.hover\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.focus\:border-transparent:focus{border-color:transparent}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-navy:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(29 48 63 / var(--tw-ring-opacity, 1))}.disabled\:cursor-not-allowed:disabled{cursor:not-allowed}.disabled\:bg-gray-400:disabled{--tw-bg-opacity:1;background-color:rgb(156 163 175 / var(--tw-bg-opacity, 1))}.disabled\:opacity-30:disabled{opacity:0.3}.disabled\:opacity-40:disabled{opacity:0.4}@media (min-width: 640px){.sm\:block{display:block}.sm\:hidden{display:none}.sm\:h-10{height:2.5rem}.sm\:h-12{height:3rem}.sm\:text-sm{font-size:0.875rem;line-height:1.25rem}}
+    </style>
+    <!-- Barlow Condensed for titles (echoes the logo lettering), Inter for everything else -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #000000;
+        }
+        h1, h2, h3 {
+            font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.01em;
+        }
+        h2.text-2xl {
+            font-size: 1.875rem;
+        }
+        /* Equal-width digits so stat columns line up */
+        td {
+            font-variant-numeric: tabular-nums;
+        }
+        input[type=radio] {
+            accent-color: #1D303F;
+        }
+        .overflow-x-auto {
+            -webkit-overflow-scrolling: touch;
+        }
+        .stage-hidden {
+            display: none;
+        }
+        .sort-btn {
+            font: inherit;
+            text-transform: inherit;
+            color: inherit;
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+        .sort-arrow {
+            display: inline-block;
+            margin-left: 4px;
+        }
+        .voting-table tbody tr:hover {
+            background-color: #F4F6F8;
+        }
+        .save-status {
+            transition: opacity 0.3s ease;
+        }
+        .tab-button {
+            border: 1px solid #1D303F;
+            transition: background-color 0.2s ease;
+        }
+        .tab-button.active {
+            background-color: #1D303F;
+            color: #FFFFFF;
+        }
+        .tab-button.inactive {
+            background-color: #FFFFFF;
+            color: #1D303F;
+        }
+        .tab-button.inactive:hover {
+            background-color: #E8ECEF;
+        }
+        /* Your picks: light navy tint with a navy bar down the left edge */
+        .picked, .voting-table tbody tr.picked {
+            background-color: #E8ECEF;
+        }
+        .picked:not(tr), tr.picked > td:first-child {
+            box-shadow: inset 4px 0 0 #1D303F;
+        }
+        button:focus-visible, input:focus-visible, a:focus-visible {
+            outline: 2px solid #1D303F;
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body class="bg-canvas">
+    <!-- IdahoSports.com masthead. Bar color matches the logo's background. -->
+    <header style="background:#1D303F;">
+        <div class="max-w-7xl mx-auto px-4 py-3">
+            <img src="data:image/png;base64,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" alt="IdahoSports.com" class="h-8 sm:h-10 w-auto">
+        </div>
+    </header>
+    <div id="app" class="min-h-screen p-4">
+        <div class="max-w-7xl mx-auto">
+            <!-- Header -->
+            <div id="siteHeader" class="mb-6">
+                <h1 class="text-4xl font-bold text-navy mb-2">All-State Soccer Voting</h1>
+                <p class="text-muted"><span id="ballotName" class="font-semibold text-ink"></span> · IdahoSports.com</p>
+                <!-- Ballot progress (built by updateProgress) -->
+                <nav id="ballotProgress" aria-label="Ballot progress" class="mt-4" style="display:none;">
+                    <ol id="progressSteps" class="flex flex-wrap gap-2"></ol>
+                </nav>
+            </div>
+
+            <!-- Intro: Coach Info -->
+            <div id="stage0" class="stage mb-8">
+                <div class="bg-white border border-rule rounded-lg shadow-sm p-8 max-w-md mx-auto">
+                    <h2 class="text-xl font-bold text-navy mb-6">Who's voting?</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <label for="coachNameInput" class="block text-sm font-medium text-ink mb-1">Your name</label>
+                            <input id="coachNameInput" type="text" placeholder="Coach name"
+                                class="w-full px-4 py-2 border border-rule rounded-lg focus:ring-2 focus:ring-navy focus:border-transparent text-sm">
+                        </div>
+                        <div>
+                            <label for="coachSchoolInput" class="block text-sm font-medium text-ink mb-1">Your school</label>
+                            <input id="coachSchoolInput" type="text" placeholder="School name"
+                                class="w-full px-4 py-2 border border-rule rounded-lg focus:ring-2 focus:ring-navy focus:border-transparent text-sm">
+                        </div>
+                        <button id="startVoting"
+                            class="w-full px-6 py-3 bg-navy text-white font-semibold rounded-lg hover:bg-navy-dark disabled:bg-gray-400 disabled:cursor-not-allowed"
+                            disabled>
+                            Start ballot
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player of the Year -->
+            <div id="stage1" class="stage stage-hidden mb-8">
+                <div class="bg-white border-l-4 border-navy shadow-sm p-4 mb-6">
+                    <h2 class="text-2xl font-bold text-navy mb-2">Player of the Year</h2>
+                    <ul class="text-ink list-disc pl-5 space-y-1">
+                        <li>Select who you feel should be the state player of the year.</li>
+                        <li>Switch between outfield players and goalkeepers with the buttons at the top of the table.</li>
+                        <li>Sort by any stat.</li>
+                        <li>Additional information, including coach's comments, is under the "View more" buttons.</li>
+                        <li>After you continue, you will rank all-state players by position. Your Player of the Year will not appear on those pages.</li>
+                    </ul>
+                </div>
+
+                <div id="loading1" class="flex items-center justify-center py-12">
+                    <div class="text-lg text-muted">Loading candidates...</div>
+                </div>
+
+                <div id="content1" style="display: none;">
+                    <!-- Tabs -->
+                    <div class="flex gap-2 mb-6">
+                        <button id="tabOutfield1" class="tab-button active px-6 py-2 rounded-lg font-semibold">Outfield</button>
+                        <button id="tabGoalkeeper1" class="tab-button inactive px-6 py-2 rounded-lg font-semibold">Goalkeepers</button>
+                    </div>
+
+                    <!-- Search -->
+                    <div class="mb-4">
+                        <input type="text" id="search1" placeholder="Search by player name or school..."
+                            class="w-full px-4 py-2 border border-rule rounded-lg focus:ring-2 focus:ring-navy focus:border-transparent">
+                    </div>
+
+                    <!-- Candidates Table (built by renderCandidates) -->
+                    <div id="poyTable" class="bg-white rounded-lg shadow-sm overflow-hidden mb-6"></div>
+
+                    <!-- Selected Player -->
+                    <div id="selectedPlayer1" class="bg-pick border-l-4 border-navy p-4 mb-6" style="display: none;">
+                        <p class="text-ink"><strong>Selected:</strong> <span id="selectedPlayerName1"></span> from <span id="selectedPlayerSchool1"></span></p>
+                    </div>
+
+                    <!-- Coach's comment on the Player of the Year pick (sent with the ballot) -->
+                    <div class="bg-white border border-rule rounded-lg shadow-sm p-4 mb-6">
+                        <h3 id="poyCommentLabel" class="font-bold text-navy text-lg mb-1">Coach's comment</h3>
+                        <p id="poyCommentHelp" class="text-sm text-ink mb-2">In full sentences, please explain why you voted for this athlete for player of the year. Your quote may be used in our public writeup.</p>
+                        <textarea id="poyComment" rows="4" required aria-required="true" aria-labelledby="poyCommentLabel" aria-describedby="poyCommentHelp poyCommentRequired"
+                            class="w-full px-4 py-2 border border-rule rounded-lg focus:ring-2 focus:ring-navy focus:border-transparent text-sm"></textarea>
+                        <p id="poyCommentRequired" class="text-xs text-muted">Required to continue.</p>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button id="submitStage1" disabled
+                        class="w-full px-6 py-3 bg-navy text-white font-semibold rounded-lg hover:bg-navy-dark disabled:bg-gray-400 disabled:cursor-not-allowed">
+                        Continue to forwards →
+                    </button>
+                </div>
+
+                <div id="noResults1" class="text-center py-8 text-muted" style="display: none;">
+                    No Player of the Year candidates found.
+                </div>
+            </div>
+
+            <!-- Position pages: Forward, Midfield, Defender, Goalkeeper (built by buildPositionStages) -->
+            <div id="positionStages"></div>
+
+            <!-- Coach of the Year -->
+            <div id="stage3" class="stage stage-hidden mb-8">
+                <div class="bg-white border-l-4 border-navy shadow-sm p-4 mb-6">
+                    <h2 class="text-2xl font-bold text-navy mb-2">Coach of the Year</h2>
+                    <ul class="text-ink list-disc pl-5 space-y-1">
+                        <li>Select your classification's coach of the year, then submit your ballot.</li>
+                    </ul>
+                </div>
+
+                <div id="loading3" class="flex items-center justify-center py-12">
+                    <div class="text-lg text-muted">Loading coaches...</div>
+                </div>
+
+                <div id="content3" style="display:none;">
+                    <!-- Coaches Table -->
+                    <div class="bg-white rounded-lg shadow-sm overflow-hidden mb-6">
+                        <table class="min-w-full divide-y divide-rule">
+                            <thead class="bg-canvas">
+                                <tr>
+                                    <th class="px-4 py-3 text-center text-xs font-medium text-muted uppercase">Select</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-muted uppercase">Coach, School</th>
+                                </tr>
+                            </thead>
+                            <tbody id="coachTableBody" class="bg-white divide-y divide-rule"></tbody>
+                        </table>
+                    </div>
+
+                    <!-- Selected Coach -->
+                    <div id="selectedCoach3" class="bg-pick border-l-4 border-navy p-4 mb-6" style="display:none;">
+                        <p class="text-ink"><strong>Selected:</strong> <span id="selectedCoachName3"></span></p>
+                    </div>
+                </div>
+
+                <div id="noResults3" class="text-center py-8 text-muted" style="display:none;">
+                    No coaches found.
+                </div>
+
+                <p id="submitError" class="text-red-600 text-sm mb-4" style="display:none;"></p>
+
+                <div class="flex gap-3">
+                    <button id="backFromCoach" class="px-6 py-3 bg-white border border-navy text-navy font-semibold rounded-lg hover:bg-pick">← Back</button>
+                    <button id="submitVotes" disabled
+                        class="flex-1 px-6 py-3 bg-navy text-white font-semibold rounded-lg hover:bg-navy-dark disabled:bg-gray-400 disabled:cursor-not-allowed">
+                        Submit ballot
+                    </button>
+                </div>
+            </div>
+
+            <!-- Player Details Modal -->
+            <div id="playerModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center" style="display:none;">
+                <div class="bg-white rounded-lg shadow-xl max-w-lg w-full mx-4 overflow-y-auto" style="max-height:80vh;" role="dialog" aria-modal="true" aria-labelledby="modalPlayerName">
+                    <div class="flex items-center justify-between p-4 border-b border-rule sticky top-0 bg-white">
+                        <h3 id="modalPlayerName" class="text-lg font-bold text-navy"></h3>
+                        <button id="closeModal" class="text-muted hover:text-ink text-2xl leading-none" aria-label="Close">&times;</button>
+                    </div>
+                    <div id="modalBody" class="p-4 space-y-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        // Where votes get submitted: this ballot's results sheet Apps Script web app URL (ends in /exec).
+        // Each classification and gender has its own results sheet, so update this per page.
+        const GOOGLE_SHEET_URL = 'https://script.google.com/macros/s/AKfycbxB7iwfxvkXnyAqHDDkdqayFvDc3iANm8zZSvotfj87UwPBNWwz2qsYqFAwyybv53lu/exec';
+        // Coach of the Year filter config — update these per page. Must match the coach sheet's
+        // class and boys/girls columns (capitalization and extra spaces don't matter).
+        const COACH_CLASS = '6A';            // '6A', '5A', '4A', '3A', '2A', '1A'
+        const COACH_TEAM = 'Boys soccer';   // 'Girls soccer' or 'Boys soccer'
+        // Source of coach information: the coach sheet's Apps Script web app URL (ends in /exec).
+        // Same URL on every page — the filters above are sent with the request.
+        const coachDataUrl = "https://script.google.com/macros/s/AKfycbzH4W1mGpJaZqaISSWMVnXOPN3J5yKCIfNsdjIGKjgJ7DvoGzAQ1qWQJWAlvbibJ_D6/exec";
+        // Source of player information. Must update
+        const dataUrl = "https://script.google.com/macros/s/AKfycbwCCnsYVFXGOb_1i4-A9Tph25Bt1HpNFLkCwmK4xdCwo8LRVym8V3g7k-Vnp4Fa4YVd_g/exec";
+        // Saved picks are kept per page, so different classification pages don't overwrite each other
+        const STORAGE_KEY = 'soccerRankings:' + location.pathname;
+
+        // Position pages, in the order voters see them. count = players to select and rank.
+        const POSITIONS = [
+            { key: 'Forward',    label: 'Forwards',    count: 6, stats: 'outfield' },
+            { key: 'Midfield',   label: 'Midfielders', count: 6, stats: 'outfield' },
+            { key: 'Defender',   label: 'Defenders',   count: 8, stats: 'outfield' },
+            { key: 'Goalkeeper', label: 'Goalkeepers', count: 2, stats: 'goalkeeper' }
+        ];
+
+        // Sortable stat columns. first = direction of the first click; the second click reverses, the third resets.
+        const STAT_COLUMNS = {
+            outfield: [
+                { field: 'Games played', label: 'GP',  first: 'desc' },
+                { field: 'Goals scored', label: 'G',   first: 'desc' },
+                { field: 'Assists',      label: 'Ast', first: 'desc' },
+                { field: 'Points',       label: 'Pts', first: 'desc' }
+            ],
+            goalkeeper: [
+                { field: 'Games played GK', label: 'Games',    first: 'desc' },
+                { field: 'GAA',             label: 'GAA',      first: 'asc', decimals: 2 },
+                { field: 'Shutouts',        label: 'Shutouts', first: 'desc' },
+                { field: 'Saves',           label: 'Saves',    first: 'desc' }
+            ]
+        };
+
+        // "View more" fields, in display order: [label, field]. Blank values are skipped.
+        const DETAIL_FIELDS = [
+            ['Jersey number', 'Jersey number'],
+            ['Year', 'Year in school'],
+            ['Height', 'Height'],
+            ['Position', 'Position'],
+            ['Specific position', 'Specific position'],
+            ['GP', 'Games played'],
+            ['Goals', 'Goals scored'],
+            ['Assists', 'Assists'],
+            ['Points', 'Points'],
+            ['Other stats', 'Other stats'],
+            ['GP - GK', 'Games played GK'],
+            ['Minutes', 'Minutes played at GK'],
+            ['Shutouts', 'Shutouts'],
+            ['Saves', 'Saves'],
+            ['Goals allowed', 'Goals allowed'],
+            ['GAA', 'GAA'],
+            ['Other stats GK', 'Other stats GK'],
+            ['All-conf', 'All-conference awards this year'],
+            ['Previous awards', 'Previous awards'],
+            ['College offers', 'College offers'],
+            ['College commit', 'College commit'],
+            ["Coach's comment", "Coach's comment"],
+            ['Video', 'Hudl or other highlight video']
+        ];
+
+        const STAGE_IDS = ['stage0', 'stage1', ...POSITIONS.map(p => 'stage-' + p.key), 'stage3'];
+
+        // State
+        let coachName = '';
+        let coachSchool = '';
+        let allCoaches = [];
+        let coachesLoaded = false;
+        let selectedCoachOfYear = null;
+        let savedCoachOfYear = null;   // from an unfinished ballot; applied once the coach list loads
+        let allPlayers = [];
+        let playersByKey = new Map();
+        let playerOfYearCandidates = [];
+        let rankingPlayers = [];
+        let selectedPlayerOfYear = null;
+        let currentTab1 = 'outfield';
+        let stage1Sort = { field: null, dir: null };
+        // rankings[position] = ordered list of player keys; positionSort[position] = pool table sort
+        const rankings = {};
+        const positionSort = {};
+        const saveTimers = {};
+        POSITIONS.forEach(p => {
+            rankings[p.key] = [];
+            positionSort[p.key] = { field: null, dir: null };
+        });
+
+        // ==================== HELPERS ====================
+        function esc(val) {
+            return String(val ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+        }
+
+        function clean(val) {
+            return String(val ?? '').trim();
+        }
+
+        function isBlank(val) {
+            return clean(val) === '';
+        }
+
+        function playerName(p) {
+            return clean(p["Player's name"]);
+        }
+
+        function playerKey(p) {
+            return playerName(p).toLowerCase() + '|' + clean(p['School']).toLowerCase();
+        }
+
+        function hasPosition(p, position) {
+            return clean(p['Position']).toLowerCase() === position.toLowerCase();
+        }
+
+        function matchesSearch(p, search) {
+            return !search ||
+                playerName(p).toLowerCase().includes(search) ||
+                clean(p['School']).toLowerCase().includes(search);
+        }
+
+        function statNumber(p, field) {
+            if (isBlank(p[field])) return null;
+            const num = parseFloat(p[field]);
+            return isNaN(num) ? null : num;
+        }
+
+        function formatStat(col, val) {
+            if (isBlank(val)) return '—';
+            const num = parseFloat(val);
+            if (isNaN(num)) return clean(val);
+            return col.decimals !== undefined ? num.toFixed(col.decimals) : String(val);
+        }
+
+        // Cycle a column: first direction → reversed → back to default listing
+        function nextSort(sort, col) {
+            if (sort.field !== col.field) return { field: col.field, dir: col.first };
+            if (sort.dir === col.first) return { field: col.field, dir: col.first === 'asc' ? 'desc' : 'asc' };
+            return { field: null, dir: null };
+        }
+
+        // Stat sort with blanks always last; default listing is school then name
+        function sortPlayers(list, sort) {
+            return [...list].sort((a, b) => {
+                if (sort.field) {
+                    const av = statNumber(a, sort.field);
+                    const bv = statNumber(b, sort.field);
+                    if (av === null && bv !== null) return 1;
+                    if (bv === null && av !== null) return -1;
+                    if (av !== null && bv !== null && av !== bv) return sort.dir === 'asc' ? av - bv : bv - av;
+                }
+                const sc = clean(a['School']).localeCompare(clean(b['School']));
+                if (sc !== 0) return sc;
+                return playerName(a).localeCompare(playerName(b));
+            });
+        }
+
+        const TH = 'px-4 py-3 text-xs font-medium text-muted uppercase';
+        const TD = 'px-4 py-3 text-sm';
+
+        // showPos: the Pos column only appears on the Player of the Year table
+        function tableHead(leading, columns, trailing, sort, accent, showPos = true) {
+            const lead = leading.map(h => `<th class="${TH} ${h.align || 'text-left'}">${h.label}</th>`).join('');
+            const info = (showPos ? ['Player', 'School', 'Pos', 'All-Conf'] : ['Player', 'School', 'All-Conf']).map(h => `<th class="${TH} text-left">${h}</th>`).join('');
+            const stats = columns.map(col => {
+                if (!sort) return `<th class="${TH} text-center">${col.label}</th>`;
+                const active = sort.field === col.field;
+                const arrow = active ? (sort.dir === 'asc' ? '▲' : '▼') : '▲';
+                const ariaSort = active ? (sort.dir === 'asc' ? 'ascending' : 'descending') : 'none';
+                return `<th class="${TH} text-center" aria-sort="${ariaSort}">
+                    <button type="button" class="sort-btn" data-action="sort" data-field="${esc(col.field)}" title="Click to sort"
+                        style="${active ? `color:${accent};font-weight:700;text-decoration:underline;text-underline-offset:4px` : ''}">${col.label}<span class="sort-arrow" style="opacity:${active ? 1 : 0.3}">${arrow}</span></button>
+                </th>`;
+            }).join('');
+            const trail = trailing.map(h => `<th class="${TH} text-center">${h}</th>`).join('');
+            return `<thead class="bg-canvas"><tr>${lead}${info}${stats}${trail}</tr></thead>`;
+        }
+
+        function infoCells(p, showPos = true) {
+            const allConf = isBlank(p['All-conference awards this year'])
+                ? '<span class="text-muted">—</span>'
+                : `<span class="text-ink">${esc(clean(p['All-conference awards this year']))}</span>`;
+            const pos = showPos ? `<td class="${TD} text-ink whitespace-nowrap">${esc(clean(p['Position'])) || '—'}</td>` : '';
+            return `
+                <td class="${TD} font-medium text-ink whitespace-nowrap">${esc(playerName(p)) || 'N/A'}</td>
+                <td class="${TD} text-ink whitespace-nowrap">${esc(clean(p['School'])) || 'N/A'}</td>
+                ${pos}
+                <td class="${TD}">${allConf}</td>`;
+        }
+
+        function statCells(p, columns) {
+            return columns.map(col => `<td class="${TD} text-center text-ink">${esc(formatStat(col, p[col.field]))}</td>`).join('');
+        }
+
+        function detailsCell(key) {
+            return `<td class="px-4 py-3 text-center">
+                <button type="button" data-action="details" data-key="${esc(key)}" class="bg-white border border-rule hover:border-navy text-ink px-3 py-1 rounded text-xs font-medium whitespace-nowrap">View more</button>
+            </td>`;
+        }
+
+        function tableShell(head, body) {
+            return `<div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-rule voting-table">${head}<tbody class="bg-white divide-y divide-rule">${body}</tbody></table>
+            </div>`;
+        }
+
+        function messageRow(colspan, text) {
+            return `<tr><td colspan="${colspan}" class="px-4 py-6 text-center text-muted">${text}</td></tr>`;
+        }
+
+        // ---------- Phone layout: stacked cards replace the wide stat tables below 640px ----------
+        function responsiveList(tableHtml, cardsHtml) {
+            return `<div class="hidden sm:block">${tableHtml}</div>
+                <div class="sm:hidden divide-y divide-rule">${cardsHtml}</div>`;
+        }
+
+        function messageCard(text) {
+            return `<p class="px-4 py-6 text-center text-muted">${text}</p>`;
+        }
+
+        // Stat sorting for phones, where the table headers are hidden. Same click cycle as the headers.
+        function sortChips(columns, sort, accent) {
+            const chips = columns.map(col => {
+                const active = sort.field === col.field;
+                const arrow = active ? (sort.dir === 'asc' ? '▲' : '▼') : '▲';
+                return `<button type="button" data-action="sort" data-field="${esc(col.field)}"
+                    class="px-3 py-1.5 rounded-full border font-medium ${active ? 'text-white' : 'bg-white border-rule text-ink'}"
+                    style="${active ? `background-color:${accent};border-color:${accent}` : ''}">${col.label}<span class="sort-arrow" style="opacity:${active ? 1 : 0.3}">${arrow}</span></button>`;
+            }).join('');
+            return `<div class="flex flex-wrap items-center gap-2 px-4 py-3 bg-canvas text-xs">
+                <span class="font-medium uppercase text-muted mr-1">Sort</span>${chips}</div>`;
+        }
+
+        // Card order: name, school (· position), all-conf, stats
+        function cardBody(p, columns, key, showPos = true) {
+            const allConf = clean(p['All-conference awards this year']);
+            const stats = columns.map(col => `${col.label} ${esc(formatStat(col, p[col.field]))}`).join(' · ');
+            const pos = showPos ? ` · ${esc(clean(p['Position'])) || '—'}` : '';
+            return `<div class="flex items-start justify-between gap-2">
+                    <div class="min-w-0">
+                        <p class="font-semibold text-ink">${esc(playerName(p)) || 'N/A'}</p>
+                        <p class="text-sm text-muted">${esc(clean(p['School'])) || 'N/A'}${pos}</p>
+                        ${allConf ? `<p class="text-xs text-muted">All-conf: ${esc(allConf)}</p>` : ''}
+                    </div>
+                    <button type="button" data-action="details" data-key="${esc(key)}" class="shrink-0 bg-white border border-rule hover:border-navy text-ink px-3 py-1.5 rounded text-xs font-medium whitespace-nowrap">View more</button>
+                </div>
+                <p class="mt-1 text-sm text-ink">${stats}</p>`;
+        }
+
+        function setTabClass(btn, active) {
+            btn.className = `tab-button ${active ? 'active' : 'inactive'} px-6 py-2 rounded-lg font-semibold`;
+        }
+
+        function showStage(id) {
+            STAGE_IDS.forEach(s => document.getElementById(s).classList.toggle('stage-hidden', s !== id));
+            updateProgress();
+            window.scrollTo(0, 0);
+        }
+
+        // Jump to any step from the progress strip
+        function goToStage(id) {
+            if (id !== 'stage0' && id !== 'stage1') prepareRankings();
+            showStage(id);
+            if (id === 'stage3') initStage3();
+        }
+
+        // ---------- Ballot progress strip ----------
+        function progressSteps() {
+            return [
+                { id: 'stage1', label: 'Player of the Year', done: !!selectedPlayerOfYear && hasPoyComment() },
+                ...POSITIONS.map(pos => ({
+                    id: 'stage-' + pos.key,
+                    label: pos.label,
+                    count: `${rankings[pos.key].length}/${pos.count}`,
+                    done: rankings[pos.key].length === pos.count
+                })),
+                { id: 'stage3', label: 'Coach of the Year', done: !!selectedCoachOfYear }
+            ];
+        }
+
+        // A step can be opened once every step before it is complete
+        function updateProgress() {
+            const current = STAGE_IDS.find(id => !document.getElementById(id).classList.contains('stage-hidden'));
+            document.getElementById('ballotProgress').style.display = current === 'stage0' ? 'none' : 'block';
+            const steps = progressSteps();
+            document.getElementById('progressSteps').innerHTML = steps.map((s, i) => {
+                const isCurrent = s.id === current;
+                const reachable = steps.slice(0, i).every(prev => prev.done);
+                const status = s.done ? '✓' : (s.count || '');
+                const look = isCurrent ? 'bg-navy border-navy text-white'
+                    : s.done ? 'bg-white border-navy text-navy'
+                    : 'bg-canvas border-rule text-muted';
+                const hover = reachable && !isCurrent ? 'hover:bg-pick cursor-pointer' : 'cursor-default';
+                return `<li><button type="button" data-step="${s.id}" ${reachable && !isCurrent ? '' : 'disabled'} ${isCurrent ? 'aria-current="step"' : ''}
+                    class="px-3 py-1.5 rounded-full border text-xs sm:text-sm font-medium whitespace-nowrap ${look} ${hover}">
+                    ${s.label}${status ? ` <span class="ml-1 ${isCurrent ? 'text-white/70' : ''}">${status}</span>` : ''}</button></li>`;
+            }).join('');
+        }
+
+        function titleCase(text) {
+            return text.replace(/\b\w/g, c => c.toUpperCase());
+        }
+
+        // ==================== STAGE 0: COACH INFO ====================
+        function initStage0() {
+            const nameInput = document.getElementById('coachNameInput');
+            const schoolInput = document.getElementById('coachSchoolInput');
+            const startBtn = document.getElementById('startVoting');
+
+            function checkReady() {
+                startBtn.disabled = !(nameInput.value.trim() && schoolInput.value.trim());
+            }
+
+            nameInput.addEventListener('input', checkReady);
+            schoolInput.addEventListener('input', checkReady);
+
+            // Fill in the voter from an unfinished ballot on this device
+            const saved = readSavedBallot();
+            if (saved) {
+                if (typeof saved.coachName === 'string') nameInput.value = saved.coachName;
+                if (typeof saved.coachSchool === 'string') schoolInput.value = saved.coachSchool;
+                if (typeof saved.playerOfYearComment === 'string') document.getElementById('poyComment').value = saved.playerOfYearComment;
+                checkReady();
+            }
+
+            buildPositionStages();
+
+            // Which ballot this is, from the coach filter settings
+            const ballotName = `${COACH_CLASS} ${titleCase(COACH_TEAM)}`;
+            document.getElementById('ballotName').textContent = ballotName;
+            document.getElementById('thankYouBallot').textContent = `${ballotName} ballot submitted.`;
+            document.getElementById('thankYouLogo').src = document.querySelector('header img').src;
+            document.title = `${COACH_CLASS} ${titleCase(COACH_TEAM)} · All-State Soccer Voting`;
+
+            document.getElementById('progressSteps').addEventListener('click', e => {
+                const btn = e.target.closest('[data-step]');
+                if (btn && !btn.disabled) goToStage(btn.dataset.step);
+            });
+
+            startBtn.addEventListener('click', () => {
+                coachName = nameInput.value.trim();
+                coachSchool = schoolInput.value.trim();
+                // Merge into the saved ballot; the rankings themselves aren't loaded yet
+                try {
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...(readSavedBallot() || {}), coachName, coachSchool }));
+                } catch (e) {}
+                showStage('stage1');
+                initStage1();
+            });
+
+            // Modal close
+            document.getElementById('closeModal').addEventListener('click', closePlayerModal);
+            document.getElementById('playerModal').addEventListener('click', function(e) {
+                if (e.target === this) closePlayerModal();
+            });
+            document.addEventListener('keydown', e => {
+                if (e.key === 'Escape') closePlayerModal();
+            });
+        }
+
+        // ==================== STAGE 1: PLAYER OF THE YEAR ====================
+        async function initStage1() {
+            const loading = document.getElementById('loading1');
+            const content = document.getElementById('content1');
+            const noResults = document.getElementById('noResults1');
+            try {
+                loading.style.display = 'flex';
+                content.style.display = 'none';
+
+                allPlayers = await fetchPlayerData();
+                playersByKey = new Map(allPlayers.map(p => [playerKey(p), p]));
+                const savedPoyKey = loadSavedRankings();
+
+                playerOfYearCandidates = allPlayers.filter(p =>
+                    clean(p['Player of the Year nomination']).toLowerCase().startsWith('yes')
+                );
+
+                loading.style.display = 'none';
+                if (playerOfYearCandidates.length === 0) {
+                    noResults.style.display = 'block';
+                } else {
+                    content.style.display = 'block';
+                    // Restore a saved pick, opening the tab it's on
+                    const savedPoy = playerOfYearCandidates.find(p => playerKey(p) === savedPoyKey);
+                    if (savedPoy) {
+                        if (hasPosition(savedPoy, 'Goalkeeper')) switchTab1('goalkeeper');
+                        selectPlayerOfYear(savedPoy);
+                    } else {
+                        renderCandidates();
+                    }
+                }
+
+                document.getElementById('tabOutfield1').addEventListener('click', () => switchTab1('outfield'));
+                document.getElementById('tabGoalkeeper1').addEventListener('click', () => switchTab1('goalkeeper'));
+                document.getElementById('search1').addEventListener('input', renderCandidates);
+                document.getElementById('poyComment').addEventListener('input', () => {
+                    persistRankings();
+                    updateStage1Ready();
+                    updateProgress();
+                });
+                document.getElementById('submitStage1').addEventListener('click', submitStage1);
+
+                const table = document.getElementById('poyTable');
+                table.addEventListener('click', e => {
+                    const btn = e.target.closest('[data-action]');
+                    if (!btn) return;
+                    if (btn.dataset.action === 'sort') {
+                        const col = STAT_COLUMNS[currentTab1].find(c => c.field === btn.dataset.field);
+                        stage1Sort = nextSort(stage1Sort, col);
+                        renderCandidates();
+                    } else if (btn.dataset.action === 'details') {
+                        openPlayerModal(playersByKey.get(btn.dataset.key));
+                    }
+                });
+                table.addEventListener('change', e => {
+                    if (e.target.name === 'playerOfYear' || e.target.name === 'playerOfYearPhone') selectPlayerOfYear(playersByKey.get(e.target.dataset.key));
+                });
+
+            } catch (error) {
+                console.error('Error loading Stage 1:', error);
+                loading.innerHTML = '<div class="text-red-600">Player data didn\'t load. Check your connection and refresh the page.</div>';
+            }
+        }
+
+        function renderCandidates() {
+            const columns = STAT_COLUMNS[currentTab1];
+            const wantKeepers = currentTab1 === 'goalkeeper';
+            const search = document.getElementById('search1').value.trim().toLowerCase();
+            const selectedKey = selectedPlayerOfYear ? playerKey(selectedPlayerOfYear) : null;
+            const colspan = columns.length + 6;
+
+            const onTab = playerOfYearCandidates.filter(p => hasPosition(p, 'Goalkeeper') === wantKeepers);
+            const filtered = sortPlayers(onTab.filter(p => matchesSearch(p, search)), stage1Sort);
+
+            let body, cards;
+            if (onTab.length === 0) {
+                const text = wantKeepers ? 'No goalkeepers were nominated for Player of the Year.' : 'No outfield players were nominated for Player of the Year.';
+                body = messageRow(colspan, text);
+                cards = messageCard(text);
+            } else if (filtered.length === 0) {
+                body = messageRow(colspan, 'No candidates match your search');
+                cards = messageCard('No candidates match your search');
+            } else {
+                body = filtered.map(p => {
+                    const key = playerKey(p);
+                    const isSelected = key === selectedKey;
+                    return `<tr class="${isSelected ? 'picked' : ''}">
+                        <td class="px-4 py-3 text-center">
+                            <input type="radio" name="playerOfYear" data-key="${esc(key)}" aria-label="Select ${esc(playerName(p))}"
+                                class="w-4 h-4 cursor-pointer" ${isSelected ? 'checked' : ''}>
+                        </td>
+                        ${infoCells(p)}
+                        ${statCells(p, columns)}
+                        ${detailsCell(key)}
+                    </tr>`;
+                }).join('');
+                cards = sortChips(columns, stage1Sort, '#1D303F') + filtered.map(p => {
+                    const key = playerKey(p);
+                    const isSelected = key === selectedKey;
+                    // Own radio group: sharing the table's would let this hidden copy take the checked state
+                    return `<label class="flex gap-3 p-4 cursor-pointer ${isSelected ? 'picked' : ''}">
+                        <input type="radio" name="playerOfYearPhone" data-key="${esc(key)}" aria-label="Select ${esc(playerName(p))}"
+                            class="mt-1 w-5 h-5 shrink-0" ${isSelected ? 'checked' : ''}>
+                        <div class="flex-1 min-w-0">${cardBody(p, columns, key)}</div>
+                    </label>`;
+                }).join('');
+            }
+
+            const head = tableHead([{ label: 'Select' }], columns, ['Details'], stage1Sort, '#1D303F');
+            document.getElementById('poyTable').innerHTML = responsiveList(tableShell(head, body), cards);
+        }
+
+        function switchTab1(tab) {
+            currentTab1 = tab;
+            stage1Sort = { field: null, dir: null };
+            setTabClass(document.getElementById('tabOutfield1'), tab === 'outfield');
+            setTabClass(document.getElementById('tabGoalkeeper1'), tab === 'goalkeeper');
+            renderCandidates();
+        }
+
+        function selectPlayerOfYear(player) {
+            selectedPlayerOfYear = player;
+            updateStage1Ready();
+            document.getElementById('selectedPlayerName1').textContent = playerName(player);
+            document.getElementById('selectedPlayerSchool1').textContent = clean(player['School']);
+            document.getElementById('selectedPlayer1').style.display = 'block';
+            persistRankings();
+            renderCandidates();
+            updateProgress();
+        }
+
+        function openPlayerModal(player) {
+            if (!player) return;
+            document.getElementById('modalPlayerName').textContent = playerName(player) + ' — ' + clean(player['School']);
+            const body = document.getElementById('modalBody');
+            body.innerHTML = DETAIL_FIELDS
+                .filter(([, field]) => !isBlank(player[field]))
+                .map(([label, field]) => {
+                    let val = clean(player[field]);
+                    if (field === 'GAA' && !isNaN(parseFloat(val))) val = parseFloat(val).toFixed(2);
+                    const shown = /^https?:\/\//i.test(val)
+                        ? `<a href="${esc(val)}" target="_blank" rel="noopener" class="text-navy font-medium underline break-all">${esc(val)}</a>`
+                        : esc(val);
+                    return `<div class="flex gap-2 text-sm border-b border-rule pb-2">
+                        <span class="font-medium text-muted min-w-max">${esc(label)}:</span><span class="text-ink">${shown}</span>
+                    </div>`;
+                }).join('');
+            document.getElementById('playerModal').style.display = 'flex';
+            document.getElementById('closeModal').focus();
+        }
+
+        function closePlayerModal() {
+            document.getElementById('playerModal').style.display = 'none';
+        }
+
+        // The coach's comment is required: any text at all
+        function hasPoyComment() {
+            return document.getElementById('poyComment').value.trim() !== '';
+        }
+
+        // Continue needs both a Player of the Year pick and a comment
+        function updateStage1Ready() {
+            document.getElementById('submitStage1').disabled = !(selectedPlayerOfYear && hasPoyComment());
+        }
+
+        function submitStage1() {
+            if (!selectedPlayerOfYear || !hasPoyComment()) return;
+            prepareRankings();
+            showStage('stage-' + POSITIONS[0].key);
+        }
+
+        // The Player of the Year is left off every position page. Safe to run repeatedly.
+        function prepareRankings() {
+            if (!selectedPlayerOfYear) return;
+            const poyKey = playerKey(selectedPlayerOfYear);
+            rankingPlayers = allPlayers.filter(p => playerKey(p) !== poyKey);
+            POSITIONS.forEach(pos => {
+                rankings[pos.key] = rankings[pos.key].filter(k => k !== poyKey);
+                renderPosition(pos.key);
+            });
+            persistRankings();
+        }
+
+        // ==================== POSITION PAGES: SELECT & RANK ====================
+        function buildPositionStages() {
+            const container = document.getElementById('positionStages');
+            container.innerHTML = POSITIONS.map((pos, i) => {
+                const next = POSITIONS[i + 1];
+                const nextLabel = next ? next.label.toLowerCase() : 'Coach of the Year';
+                const noun = pos.label.toLowerCase();
+                return `
+                <div id="stage-${pos.key}" class="stage stage-hidden mb-8">
+                    <div class="bg-white border-l-4 border-navy shadow-sm p-4 mb-6">
+                        <p class="text-xs font-semibold uppercase tracking-wide text-navy mb-1">All-State selections · position ${i + 1} of ${POSITIONS.length}</p>
+                        <h2 class="text-2xl font-bold text-navy mb-2">${pos.label}</h2>
+                        <ul class="text-ink list-disc pl-5 space-y-1">
+                            <li>Use the first table to select ${pos.count} ${noun}. You must pick ${pos.count} to continue.</li>
+                            <li>Use the second table to rank them with the up/down arrows. Higher rank = more points.</li>
+                            <li>Sort by any stat.</li>
+                            <li>Additional information, including coach's comments, is under the "View more" buttons.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <input type="text" data-role="search" placeholder="Search by player name or school..."
+                            class="w-full px-4 py-2 border border-rule rounded-lg focus:ring-2 focus:ring-navy focus:border-transparent">
+                    </div>
+
+                    <div class="mb-4 flex items-center justify-between">
+                        <div class="text-sm text-muted">Selected: <span data-role="count">0</span> / ${pos.count}</div>
+                        <div class="save-status text-sm"><span data-role="save" class="text-muted">Picks save automatically</span></div>
+                    </div>
+
+                    <div data-role="pool" class="bg-white rounded-lg shadow-sm overflow-hidden"></div>
+
+                    <div class="mt-8">
+                        <div class="bg-white border border-rule shadow-sm rounded-lg p-4 mb-4 flex items-center justify-between">
+                            <div>
+                                <h3 class="font-bold text-navy text-lg">Your ${pos.label.toLowerCase()} rankings</h3>
+                                <p class="text-sm text-muted"><span data-role="count">0</span> / ${pos.count} selected.</p>
+                            </div>
+                            <button type="button" data-action="clear" class="text-xs text-red-500 hover:text-red-700 font-medium">Clear all</button>
+                        </div>
+                        <div data-role="ranked" class="bg-white rounded-lg shadow-sm overflow-hidden mb-4"></div>
+                    </div>
+
+                    <div class="flex gap-3 mt-6">
+                        <button type="button" data-action="back" class="px-6 py-3 bg-white border border-navy text-navy font-semibold rounded-lg hover:bg-pick">← Back</button>
+                        <button type="button" data-action="continue" disabled
+                            class="flex-1 px-6 py-3 bg-navy text-white font-semibold rounded-lg hover:bg-navy-dark disabled:bg-gray-400 disabled:cursor-not-allowed">
+                            Continue to ${nextLabel} →
+                        </button>
+                    </div>
+                </div>`;
+            }).join('');
+
+            POSITIONS.forEach((pos, i) => {
+                const stage = document.getElementById('stage-' + pos.key);
+                stage.querySelector('[data-role=search]').addEventListener('input', () => renderPosition(pos.key));
+                stage.addEventListener('click', e => {
+                    const btn = e.target.closest('[data-action]');
+                    if (!btn || btn.disabled) return;
+                    const key = btn.dataset.key;
+                    const list = rankings[pos.key];
+                    switch (btn.dataset.action) {
+                        case 'sort': {
+                            const col = STAT_COLUMNS[pos.stats].find(c => c.field === btn.dataset.field);
+                            positionSort[pos.key] = nextSort(positionSort[pos.key], col);
+                            renderPosition(pos.key);
+                            return;
+                        }
+                        case 'details':
+                            openPlayerModal(playersByKey.get(key));
+                            return;
+                        case 'add':
+                            if (list.length < pos.count && !list.includes(key)) list.push(key);
+                            break;
+                        case 'remove':
+                            rankings[pos.key] = list.filter(k => k !== key);
+                            break;
+                        case 'up':
+                        case 'down': {
+                            const idx = list.indexOf(key);
+                            const swap = btn.dataset.action === 'up' ? idx - 1 : idx + 1;
+                            if (idx < 0 || swap < 0 || swap >= list.length) return;
+                            [list[idx], list[swap]] = [list[swap], list[idx]];
+                            break;
+                        }
+                        case 'clear':
+                            if (!list.length || !confirm(`Clear all ${pos.label.toLowerCase()}?`)) return;
+                            rankings[pos.key] = [];
+                            break;
+                        case 'back':
+                            showStage(STAGE_IDS[STAGE_IDS.indexOf('stage-' + pos.key) - 1]);
+                            return;
+                        case 'continue':
+                            if (list.length !== pos.count) return;
+                            if (POSITIONS[i + 1]) {
+                                showStage('stage-' + POSITIONS[i + 1].key);
+                            } else {
+                                showStage('stage3');
+                                initStage3();
+                            }
+                            return;
+                        default:
+                            return;
+                    }
+                    saveRankings(pos.key);
+                    renderPosition(pos.key);
+                });
+            });
+        }
+
+        function renderPosition(posKey) {
+            const pos = POSITIONS.find(p => p.key === posKey);
+            const stage = document.getElementById('stage-' + posKey);
+            const columns = STAT_COLUMNS[pos.stats];
+            const sort = positionSort[posKey];
+            const picked = rankings[posKey];
+            const pickedSet = new Set(picked);
+            const full = picked.length >= pos.count;
+            const noun = pos.label.toLowerCase();
+            const search = stage.querySelector('[data-role=search]').value.trim().toLowerCase();
+
+            // Pool table
+            const atPosition = rankingPlayers.filter(p => hasPosition(p, posKey));
+            const pool = sortPlayers(atPosition.filter(p => matchesSearch(p, search)), sort);
+            const poolColspan = columns.length + 5;
+            let poolBody, poolCards;
+            if (atPosition.length === 0) {
+                poolBody = messageRow(poolColspan, `No ${noun} were nominated.`);
+                poolCards = messageCard(`No ${noun} were nominated.`);
+            } else if (pool.length === 0) {
+                poolBody = messageRow(poolColspan, 'No players match your search');
+                poolCards = messageCard('No players match your search');
+            } else {
+                const addButton = (key, size) => `<button type="button" data-action="add" data-key="${esc(key)}" ${full ? 'disabled' : ''}
+                    class="bg-white border border-navy text-navy hover:bg-pick ${size} rounded font-medium whitespace-nowrap disabled:opacity-40 disabled:cursor-not-allowed">+ Add</button>`;
+                poolBody = pool.map(p => {
+                    const key = playerKey(p);
+                    const added = pickedSet.has(key);
+                    const action = added ? '<span class="text-muted text-xs">Added</span>' : addButton(key, 'px-3 py-1 text-xs');
+                    return `<tr style="${added ? 'opacity:0.4' : ''}">
+                        <td class="px-4 py-3 text-center text-sm">${action}</td>
+                        ${infoCells(p, false)}
+                        ${statCells(p, columns)}
+                        ${detailsCell(key)}
+                    </tr>`;
+                }).join('');
+                poolCards = sortChips(columns, sort, '#1D303F') + pool.map(p => {
+                    const key = playerKey(p);
+                    const added = pickedSet.has(key);
+                    const action = added ? '<span class="text-muted text-sm">Added</span>' : addButton(key, 'px-3 py-2 text-sm');
+                    return `<div class="flex gap-3 p-4" style="${added ? 'opacity:0.4' : ''}">
+                        <div class="shrink-0 w-16">${action}</div>
+                        <div class="flex-1 min-w-0">${cardBody(p, columns, key, false)}</div>
+                    </div>`;
+                }).join('');
+            }
+            stage.querySelector('[data-role=pool]').innerHTML = responsiveList(
+                tableShell(tableHead([{ label: '', align: 'text-center' }], columns, ['Details'], sort, '#1D303F', false), poolBody),
+                poolCards);
+
+            // Ranked table
+            const rankedColspan = columns.length + 6;
+            let rankedBody, rankedCards;
+            if (picked.length === 0) {
+                rankedBody = messageRow(rankedColspan, `No ${noun} added yet. Click "+ Add" in the table above.`);
+                rankedCards = messageCard(`No ${noun} added yet. Tap "+ Add" above.`);
+            } else {
+                rankedCards = picked.map((key, idx) => {
+                    const p = playersByKey.get(key);
+                    const isFirst = idx === 0;
+                    const isLast = idx === picked.length - 1;
+                    const name = esc(playerName(p));
+                    return `<div class="flex gap-3 p-4">
+                        <div class="shrink-0 flex flex-col items-center gap-1">
+                            <button type="button" data-action="up" data-key="${esc(key)}" aria-label="Move ${name} up" ${isFirst ? 'disabled' : ''}
+                                class="bg-navy text-white w-9 h-8 rounded text-xs hover:bg-navy-dark disabled:opacity-30 disabled:cursor-not-allowed">▲</button>
+                            <span class="font-semibold text-navy text-sm">${idx + 1}</span>
+                            <button type="button" data-action="down" data-key="${esc(key)}" aria-label="Move ${name} down" ${isLast ? 'disabled' : ''}
+                                class="bg-navy text-white w-9 h-8 rounded text-xs hover:bg-navy-dark disabled:opacity-30 disabled:cursor-not-allowed">▼</button>
+                        </div>
+                        <div class="flex-1 min-w-0">${cardBody(p, columns, key, false)}</div>
+                        <button type="button" data-action="remove" data-key="${esc(key)}" aria-label="Remove ${name}"
+                            class="self-start shrink-0 text-red-400 hover:text-red-600 text-2xl leading-none font-bold px-1">&times;</button>
+                    </div>`;
+                }).join('');
+                rankedBody = picked.map((key, idx) => {
+                    const p = playersByKey.get(key);
+                    const isFirst = idx === 0;
+                    const isLast = idx === picked.length - 1;
+                    const name = esc(playerName(p));
+                    return `<tr>
+                        <td class="px-4 py-3 text-center whitespace-nowrap">
+                            <div class="flex items-center justify-center gap-1">
+                                <button type="button" data-action="up" data-key="${esc(key)}" aria-label="Move ${name} up" ${isFirst ? 'disabled' : ''}
+                                    class="bg-navy text-white px-2 py-1 rounded text-xs hover:bg-navy-dark disabled:opacity-30 disabled:cursor-not-allowed">▲</button>
+                                <span class="font-semibold text-navy text-sm w-5 text-center">${idx + 1}</span>
+                                <button type="button" data-action="down" data-key="${esc(key)}" aria-label="Move ${name} down" ${isLast ? 'disabled' : ''}
+                                    class="bg-navy text-white px-2 py-1 rounded text-xs hover:bg-navy-dark disabled:opacity-30 disabled:cursor-not-allowed">▼</button>
+                            </div>
+                        </td>
+                        ${infoCells(p, false)}
+                        ${statCells(p, columns)}
+                        ${detailsCell(key)}
+                        <td class="px-4 py-3 text-center">
+                            <button type="button" data-action="remove" data-key="${esc(key)}" aria-label="Remove ${name}"
+                                class="text-red-400 hover:text-red-600 text-lg leading-none font-bold">&times;</button>
+                        </td>
+                    </tr>`;
+                }).join('');
+            }
+            stage.querySelector('[data-role=ranked]').innerHTML = responsiveList(
+                tableShell(tableHead([{ label: 'Rank', align: 'text-center' }], columns, ['Details', 'Remove'], null, null, false), rankedBody),
+                rankedCards);
+
+            stage.querySelectorAll('[data-role=count]').forEach(el => el.textContent = picked.length);
+            stage.querySelector('[data-action=continue]').disabled = picked.length !== pos.count;
+            updateProgress();
+        }
+
+        // The unfinished ballot saved on this device, or null
+        function readSavedBallot() {
+            try {
+                const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+                return saved && typeof saved === 'object' ? saved : null;
+            } catch (e) {
+                return null;
+            }
+        }
+
+        // Restores saved position rankings and Coach of the Year; returns the saved Player of the Year key (or null)
+        function loadSavedRankings() {
+            const saved = readSavedBallot();
+            if (!saved) return null;
+            savedCoachOfYear = typeof saved.coachOfYear === 'string' ? saved.coachOfYear : null;
+            // Keep only players still in the data, at the right position, within the limit
+            POSITIONS.forEach(pos => {
+                const keys = Array.isArray(saved[pos.key]) ? saved[pos.key] : [];
+                rankings[pos.key] = keys
+                    .filter((k, i) => keys.indexOf(k) === i && playersByKey.has(k) && hasPosition(playersByKey.get(k), pos.key))
+                    .slice(0, pos.count);
+            });
+            return typeof saved.playerOfYear === 'string' ? saved.playerOfYear : null;
+        }
+
+        function persistRankings() {
+            try {
+                const playerOfYear = selectedPlayerOfYear ? playerKey(selectedPlayerOfYear) : null;
+                localStorage.setItem(STORAGE_KEY, JSON.stringify({
+                    ...rankings, playerOfYear, coachName, coachSchool,
+                    playerOfYearComment: document.getElementById('poyComment').value,
+                    coachOfYear: selectedCoachOfYear || savedCoachOfYear
+                }));
+                return true;
+            } catch (e) {
+                return false;
+            }
+        }
+
+        function saveRankings(posKey) {
+            const status = document.querySelector(`#stage-${posKey} [data-role=save]`);
+            const ok = persistRankings();
+            status.textContent = ok ? '✓ Saved' : "Picks can't be saved in this browser. Finish voting before closing the page.";
+            status.className = ok ? 'text-navy font-medium' : 'text-red-600';
+            clearTimeout(saveTimers[posKey]);
+            if (!ok) return;
+            saveTimers[posKey] = setTimeout(() => {
+                status.textContent = 'Picks save automatically';
+                status.className = 'text-muted';
+            }, 3000);
+        }
+
+        // ==================== SUBMIT ====================
+        async function submitVotes() {
+            if (!selectedCoachOfYear) return;
+
+            const btn = document.getElementById('submitVotes');
+            const errorEl = document.getElementById('submitError');
+            errorEl.style.display = 'none';
+            btn.disabled = true;
+            btn.textContent = 'Submitting...';
+
+            const rankingsOut = {};
+            POSITIONS.forEach(pos => {
+                rankingsOut[pos.key] = rankings[pos.key].map((key, idx) => {
+                    const p = playersByKey.get(key);
+                    return { rank: idx + 1, playerName: playerName(p), school: clean(p['School']) };
+                });
+            });
+
+            const voteData = {
+                classification: COACH_CLASS,
+                team: COACH_TEAM,
+                coach: `${coachName}, ${coachSchool}`,
+                playerOfYear: playerName(selectedPlayerOfYear),
+                playerOfYearSchool: clean(selectedPlayerOfYear['School']),
+                playerOfYearPosition: clean(selectedPlayerOfYear['Position']),
+                playerOfYearComment: document.getElementById('poyComment').value.trim(),
+                coachOfYear: selectedCoachOfYear,
+                rankings: rankingsOut,
+                timestamp: new Date().toISOString()
+            };
+
+            try {
+                const response = await fetch(GOOGLE_SHEET_URL, {
+                    method: 'POST',
+                    body: JSON.stringify(voteData)
+                });
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                // The web app answers {ok: true} only after the ballot is written to the sheet
+                const result = await response.json();
+                if (!result.ok) throw new Error(result.error || 'Vote sheet did not confirm the ballot');
+
+                try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+                STAGE_IDS.forEach(id => document.getElementById(id).classList.add('stage-hidden'));
+                document.getElementById('siteHeader').classList.add('stage-hidden');
+                document.getElementById('thankYouPage').style.display = 'flex';
+            } catch (error) {
+                console.error('Error submitting votes:', error);
+                errorEl.textContent = 'Your ballot was not submitted. Check your connection and click "Submit ballot" again. Your picks are still saved.';
+                errorEl.style.display = 'block';
+                btn.disabled = false;
+                btn.textContent = 'Submit ballot';
+            }
+        }
+
+        // ==================== STAGE 3: COACH OF THE YEAR ====================
+        async function initStage3() {
+            if (coachesLoaded) return;
+            coachesLoaded = true;
+
+            document.getElementById('submitVotes').addEventListener('click', submitVotes);
+            document.getElementById('backFromCoach').addEventListener('click', () => showStage('stage-' + POSITIONS[POSITIONS.length - 1].key));
+
+            try {
+                document.getElementById('loading3').style.display = 'flex';
+                document.getElementById('content3').style.display = 'none';
+
+                const url = new URL(coachDataUrl);
+                url.searchParams.set('class', COACH_CLASS);
+                url.searchParams.set('team', COACH_TEAM);
+                const response = await fetch(url);
+                const data = await response.json();
+                if (data.error) throw new Error(data.error);
+                // Entries are "Name, School" — list them by school, then name
+                const school = c => c.slice(c.indexOf(',') + 1).trim();
+                allCoaches = (data.coaches || []).map(clean).filter(Boolean)
+                    .sort((a, b) => school(a).localeCompare(school(b)) || a.localeCompare(b));
+
+                document.getElementById('loading3').style.display = 'none';
+                if (allCoaches.length === 0) {
+                    document.getElementById('noResults3').textContent = `No coaches found for ${COACH_CLASS} ${COACH_TEAM.toLowerCase()}.`;
+                    document.getElementById('noResults3').style.display = 'block';
+                } else {
+                    document.getElementById('content3').style.display = 'block';
+                    if (savedCoachOfYear && allCoaches.includes(savedCoachOfYear)) {
+                        selectCoachOfYear(savedCoachOfYear);
+                    } else {
+                        renderCoachTable();
+                    }
+                }
+
+            } catch (error) {
+                console.error('Error loading coaches:', error);
+                document.getElementById('loading3').innerHTML = '<div class="text-red-600">Coaches didn\'t load. Refresh the page to try again; your player picks are saved.</div>';
+            }
+        }
+
+        function renderCoachTable() {
+            const tbody = document.getElementById('coachTableBody');
+            tbody.innerHTML = '';
+
+            // The web app already filtered by class and boys/girls; each entry is the COY column's text
+            allCoaches.forEach(coach => {
+                const isSelected = selectedCoachOfYear === coach;
+                const row = document.createElement('tr');
+                if (isSelected) row.className = 'picked';
+
+                row.innerHTML = `
+                    <td class="px-4 py-3 text-center">
+                        <input type="radio" name="coachOfYear" aria-label="Select ${esc(coach)}" class="w-4 h-4 cursor-pointer" ${isSelected ? 'checked' : ''}>
+                    </td>
+                    <td class="px-4 py-3 text-sm font-medium text-ink">${esc(coach)}</td>
+                `;
+
+                row.querySelector('input[type=radio]').addEventListener('change', () => selectCoachOfYear(coach));
+
+                tbody.appendChild(row);
+            });
+        }
+
+        function selectCoachOfYear(coach) {
+            selectedCoachOfYear = coach;
+            document.getElementById('selectedCoachName3').textContent = coach;
+            document.getElementById('selectedCoach3').style.display = 'block';
+            document.getElementById('submitVotes').disabled = false;
+            persistRankings();
+            updateProgress();
+            renderCoachTable();
+        }
+
+        // ==================== UTILITIES ====================
+        async function fetchPlayerData() {
+            const response = await fetch(dataUrl);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+
+            // Handle different response structures
+            let players = data;
+            if (data && typeof data === 'object' && !Array.isArray(data)) {
+                players = data.data || data.players || data.results || Object.values(data).find(v => Array.isArray(v));
+            }
+            if (!Array.isArray(players)) {
+                throw new Error('Response data is not an array and could not find array property');
+            }
+            return players;
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', initStage0);
+    </script>
+
+    <!-- Thank You Page -->
+    <div id="thankYouPage" style="display:none; position:fixed; inset:0; background:#1D303F; z-index:100; align-items:center; justify-content:center;">
+        <div class="text-center px-6">
+            <img id="thankYouLogo" alt="IdahoSports.com" class="h-10 sm:h-12 w-auto mx-auto mb-10">
+            <h2 class="text-4xl font-bold text-white mb-4">Thank you for voting.</h2>
+            <p id="thankYouBallot" class="text-white/80 text-lg">Your ballot has been submitted.</p>
+        </div>
+    </div>
+</body>
+</html>
